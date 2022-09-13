@@ -28,32 +28,37 @@ vertical-align: middle;
 
 main{
     background-color: white;
-    width: 85%;
-    margin: 50px 50px 50px 80px;
+    width: 80%;
+    margin: 50px 30px 20px 130px;
+    padding-bottom: 50px;
 }
 
 
 
 .task{
     background-color: rgb(58, 192, 244);
-    padding:6px 6px;
+    padding:5px 5px;
     border-radius: 10px;
     display: inline-block;
     color: white;
-    margin: 20px 10px 20px 20px
+    margin: 10px 10px 10px 50px;
+    font-size: 12px;
+   
 }
 
 .section{
     background-color: white;
-    padding:6px 6px;
+    padding:5px 5px;
     border-radius: 10px;
     display: inline-block;
     color: gray;
     border: 1px grey solid;
+    font-size: 12px;
 }
 
 h2::before{
     content: '\25bc';
+    font-size: 13px;
 }
 
 .vero { 
@@ -82,13 +87,11 @@ font-size: 12px;
         width: 20px;
         height: 20px;
         display: inline-block;
-        
-
-        
+        line-height: 12px;     
 }
 
 .new-task,.today, .upcoming{
-    padding: 20px 20px 20px 20px;
+   margin: 20px 20px 30px 50px;
 }
 
 .options{
@@ -103,31 +106,33 @@ font-size: 12px;
     font-size: 12px; }  
 
 
-    .botton-green{
-        background-color:  rgb(53, 172, 93);
-        color: white;
-        border-radius: 10px;
-        padding: 4px;
-        font-size: 12px; } 
+.botton-green{
+    background-color:  rgb(53, 172, 93);
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 12px; } 
 
-        .botton-orange{
-            background-color:  rgb(219, 171, 40);
-            color: white;
-            border-radius: 10px;
-            padding: 4px;
-            font-size: 12px; }   
+.botton-orange{
+    background-color:  rgb(219, 171, 40);
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 12px; }   
             
-            .botton-lilac{
-                background-color:  rgb(219, 40, 177);
-                color: white;
-                border-radius: 10px;
-                padding: 4px;
-                font-size: 12px; } 
+.botton-lilac{
+    background-color:  rgb(219, 40, 177);
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 12px; } 
 
-                .botton-lightgreen{
-                    background-color:  rgb(157, 239, 129);
-                    color: white;
-                    border-radius: 10px;
-                    padding: 4px;
-                    font-size: 12px; } 
+.botton-lightgreen{
+    background-color:  rgb(157, 239, 129);
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 12px; } 
+
+
 
