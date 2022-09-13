@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Times New Roman', Times, serif
 }
 
 body{
     background-color: lightgray;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 header{
     height: 80px;
@@ -30,24 +29,24 @@ vertical-align: middle;
 main{
     background-color: white;
     width: 85%;
-    margin: auto;
+    margin: 50px 50px 50px 80px;
 }
 
 
 
 .task{
     background-color: rgb(58, 192, 244);
-    padding:8px 8px;
-    border-radius: 10%;
+    padding:6px 6px;
+    border-radius: 10px;
     display: inline-block;
     color: white;
-    margin: 20px 10px 30px 5px;
+    margin: 20px 10px 20px 20px
 }
 
 .section{
     background-color: white;
-    padding:8px 8px;
-    border-radius: 10%;
+    padding:6px 6px;
+    border-radius: 10px;
     display: inline-block;
     color: gray;
     border: 1px grey solid;
@@ -57,12 +56,14 @@ h2::before{
     content: '\25bc';
 }
 
-.vero {
-   
+.vero { 
    border-radius: 50%;
    border: 1px solid rgb(96, 244, 63);
    color: rgb(96, 244, 63);
-   padding: 2px 2px;
+   text-align: center;
+   width: 20px;
+   height: 20px;
+   display: inline-block;
 }
 
 .botton-blue{
@@ -77,11 +78,17 @@ font-size: 12px;
         border-radius: 50%;
         border: 1px solid red;
         color: red;
-        padding: 2px 2px;
+        text-align: center;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        
+
+        
 }
 
-.new-task ,.today, .unpcoming{
-    padding: 20px 20px 20px 0;
+.new-task,.today, .upcoming{
+    padding: 20px 20px 20px 20px;
 }
 
 .options{
