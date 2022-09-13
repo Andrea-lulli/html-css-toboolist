@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 body{
@@ -25,3 +26,87 @@ font-family: 'Ubuntu', sans-serif;
 vertical-align: middle;
 
 }
+
+main{
+    background-color: white;
+    width: 85%;
+    margin: auto;
+}
+
+
+
+.task{
+    background-color: rgb(58, 192, 244);
+    padding:8px 8px;
+    border-radius: 10%;
+    display: inline-block;
+    color: white;
+    margin: 20px 10px 30px 5px;
+}
+
+.section{
+    background-color: white;
+    padding:8px 8px;
+    border-radius: 10%;
+    display: inline-block;
+    color: gray;
+    border: 1px grey solid;
+}
+
+h2::before{
+    content: '\25bc';
+}
+
+.vero {
+   
+   border-radius: 50%;
+   border: 1px solid rgb(96, 244, 63);
+   color: rgb(96, 244, 63);
+   padding: 2px 2px;
+}
+
+.botton-blue{
+background-color:  rgb(58, 192, 244);
+color: white;
+border-radius: 10px;
+padding: 4px;
+font-size: 12px;
+}
+
+.falso {
+        border-radius: 50%;
+        border: 1px solid red;
+        color: red;
+        padding: 2px 2px;
+}
+
+.new-task ,.today{
+    padding: 20px 20px 20px 0;
+}
+
+.options{
+    padding: 10px 10px 10px 0 ;
+}
+
+.botton-purple{
+    background-color:  rgb(110, 47, 90);
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 12px; }  
+
+
+    .botton-green{
+        background-color:  rgb(53, 172, 93);
+        color: white;
+        border-radius: 10px;
+        padding: 4px;
+        font-size: 12px; } 
+
+        .botton-orange{
+            background-color:  rgb(219, 171, 40);
+            color: white;
+            border-radius: 10px;
+            padding: 4px;
+            font-size: 12px; }      
+
